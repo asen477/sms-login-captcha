@@ -1,5 +1,5 @@
 {
-    "name": "Trunks/sms-login-captcha",
+    "name": "trunks/sms-login-captcha",
     "description": "laravel-admin 登录验证码",
     "type": "library",
     "keywords": ["asen477","laravel-admin", "extension", "login-captcha", "sms", "code"],

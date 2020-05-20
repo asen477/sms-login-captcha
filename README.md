@@ -4,7 +4,7 @@ laravel-admin login SMS verification code
 Installation
 First, install dependencies:
 
-    composer require Trunks/sms-login-captcha
+    composer require trunks/sms-login-captcha
  
 Configuration
  In the extensions section of the config/admin.php file, add some configuration that belongs to this extension.
