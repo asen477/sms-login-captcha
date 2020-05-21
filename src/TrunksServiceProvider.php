@@ -15,8 +15,8 @@ class TrunksServiceProvider extends ServiceProvider
             return;
         }
         
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'login-captcha');
-        $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'login-captcha');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'sms-login-captcha');
+        $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'sms-login-captcha');
 
         $this->publishes([
             __DIR__.'/../resources/lang/zh-CN/validation.php' => resource_path('lang/zh-CN/validation.php'),
